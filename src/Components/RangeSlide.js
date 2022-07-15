@@ -9,7 +9,7 @@ const RangeSlide = () => {
 
   return (
     <>
-      <Form.Label>Change opacity</Form.Label>
+      <Form.Label style={{ margin: "2px" }}>opacity</Form.Label>
       <RangeSlider
         min={0}
         max={1}
